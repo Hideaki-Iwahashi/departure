@@ -1,0 +1,34 @@
+それぞれのファイルが何をするのかを記述する
+get.php
+ファイルの取得
+ detailset.js
+ 停車駅を設定する
+
+ variable.js
+種別と色の設定
+
+ function1.js
+ 3つの表示方法を設定
+
+ Time.js
+ 現在時刻を設定，表示の基準
+
+ Timer.js
+ 現在時刻表示
+
+ TimeShow.js
+ 対応した時刻の表示
+
+ main.js
+詳細以外の表示
+
+ variable2.js
+ mainの後に設定する変数
+
+ typeColor.js
+種別の色を表示
+detailStation.js
+駅の確定(上の方にしたい)
+ detailshow.js
+
+ 詳細表示

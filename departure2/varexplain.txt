@@ -1,0 +1,11 @@
+TT
+TimeTableを引数にするときに使用
+
+j
+TimeTableにおいて「時」を判別するため
+
+variable.js
+最初に設定できる変数
+
+variable2.js
+showの後に設定できる変数

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>発車標</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="banner.css">
+
+</head>
+<body>
+ <table>
+<caption><p1>発車案内　現在時刻:<span id="Nowtime"></span></p1></caption>
+    <tr>
+      <th width="10%">時刻</th>
+      <th width="15%"> 種別</th>
+      <th width="20%">行先</th>
+      <th width="5%">のりば</th>
+      <th width="50%">案内</th>
+    </tr>
+    <p1>
+    <tr>
+      <td><p2 id="FirTime"></p2></td>
+      <td class="shubetu"><p2 id="TFirType"></p2></td>
+      <td><p2 id="TFirDes"></p2></td>
+      <td class="railnumber">1</td>
+      <td class="news-banner"><p3 class="news-banner__content"><p2 id="TFirDetail">各駅にとまります</p2></p3></td>
+      
+    </tr>
+    <tr>
+      <td><p2 id="TSecHour"></p2>:<p2 id="TSecMin"></p2></td>
+      <td class="shubetu"><p2 id="TSecType"></p2></td>
+      <td><p2 id="TSecDes"></p2></td>
+      <td class="railnumber">1</td>
+      <td class="news-banner"><p3 class="news-banner__content">各駅にとまります 大久保へはあとの急行が先着します</p3></td>
+    </tr>
+    </p1>
+  </table>
+  <p id="output"></p>
+<script>
+  //document.getElementById('output').textContent='ここに数字がでる'+result[25][25];
+</script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="typeColor.js"></script>
+<script type="text/javascript" src="Time.js"></script>
+</body>
+</html>
